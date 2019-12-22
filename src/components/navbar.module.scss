@@ -1,0 +1,40 @@
+$navbar-bg: darkgray;
+$navbar-fg: gray;
+$navbar-active: white;
+$navbar-sc: rgb(131, 127, 131);
+
+.navbar {
+  background-color: $navbar-bg;
+  
+  ul {
+    border-bottom: inset 2px $navbar-sc;
+    padding: 1em;
+    margin: 0;     
+    
+    display: flex;
+    flex-direction: row;
+
+    li {
+      list-style: none;
+      
+      padding-right: 1em;
+
+      font-size: x-large;
+      
+      a {
+        color: $navbar-fg;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a.activeItem {
+        color: $navbar-active;
+      }
+
+      a:hover {
+        cursor: pointer;
+        color: $navbar-active;
+      }
+    }
+  }
+}
