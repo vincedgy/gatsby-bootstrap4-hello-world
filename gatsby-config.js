@@ -5,7 +5,13 @@
  */
 
 module.exports = {
-  plugins: [
-    `gatsby-plugin-sass`,
-  ]
+  siteMetadata: {
+    author: `Vincedgy`,
+    title: `Gatsby hello world`,
+    description: `This is a Gatsby tutorialish website that talks about veganism`,
+    data: {
+      theme: '1'
+    }
+  },
+  plugins: [`gatsby-plugin-sass`],
 }
