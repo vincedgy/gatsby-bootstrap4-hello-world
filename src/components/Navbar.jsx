@@ -7,10 +7,10 @@ export const Navbar = () => {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <Link to="" activeClassName={styles.activeItem}>Home</Link>
+            <Link title="Going back Home !" to="/" activeClassName={styles.activeItem}>Home</Link>
           </li>
           <li>
-            <Link to="hello" activeClassName={styles.activeItem}>Hello</Link>
+            <Link to="/hello" activeClassName={styles.activeItem}>Hello</Link>
           </li>
         </ul>
       </nav>
