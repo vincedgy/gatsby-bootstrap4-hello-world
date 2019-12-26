@@ -8,10 +8,7 @@ module.exports = {
   siteMetadata: {
     author: `Vincedgy`,
     title: `Gatsby hello world`,
-    description: `This is a Gatsby tutorialish website that talks about veganism`,
-    data: {
-      theme: '1'
-    }
+    description: `This is a Gatsby tutorialish website that talks about veganism`
   },
   plugins: [`gatsby-plugin-sass`],
 }
