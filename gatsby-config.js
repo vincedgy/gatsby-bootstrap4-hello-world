@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  pathPrefix: "/gatsby-bootstrap4-hello-world",
   siteMetadata: {
     author: `Vincedgy`,
     title: `Gatsby hello world`,
