@@ -12,6 +12,9 @@ export const Navbar = () => {
           <li>
             <Link to="/hello" activeClassName={styles.activeItem}>Hello</Link>
           </li>
+          <li>
+            <Link to="/images" activeClassName={styles.activeItem}>Images</Link>
+          </li>
         </ul>
       </nav>
     

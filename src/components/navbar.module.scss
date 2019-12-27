@@ -1,10 +1,10 @@
-@import "../styles.scss";
+@import "../variables.scss";
 
 .navbar {
   background-color: $navbar-bg;
 
   ul {
-    border-bottom: inset 2px $navbar-sc;
+    border-bottom: solid 2px $navbar-sc;
     padding: 1em;
     margin: 0;
 

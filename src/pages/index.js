@@ -4,22 +4,32 @@ import SEO from "../components/seo"
 
 export default () => (
   <Layout>
-    <SEO title="Home"/>
-    <h1>Vegan is beautiful</h1>
-    <h2>Why all birds are gone ?</h2>
+    <SEO title="Home" />
     
-    <div className="container">
-      <div className="row">
-        <div className="col-3">Why the birds are all gone ?</div>
-        <div className="col-3">Why should I care ?</div>
-        <div className="col-3">What's the reason ?</div>
-        <div className="col-3">Do cats ate all of them ?</div>
-      </div>
+    <h2>Vegan is beautiful</h2>
+    <h3>Why all birds are gone ?</h3>
 
-      <div className="row">
-        <button className="btn btn-primary">Hello </button>
+    <div className="row">
+      <div className="col-sm">
+        <p>Why the birds are all gone ?</p>
       </div>
-    
+      <div className="col-sm">
+        <p>What's the reason ?</p>
+      </div>
+      <div className="col-sm">
+        <p>Do cats ate all of them ?</p>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-lg lg-auto">
+        <p>Please confirm that you're engaged :</p>
+        <p>
+          <button type="button" className="btn btn-success">
+            Hello{" "}
+          </button>
+        </p>
+      </div>
     </div>
   </Layout>
 )
